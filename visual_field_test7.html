@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<style type="text/css">
+
+		body {
+		  background-color: black;
+		}
+
+		.dot {
+		  position: absolute;
+		  width: 10px;
+		  height: 10px;
+		  border-radius: 50%;
+		  background-color: black;
+		  display: block;
+
+		}
+
+		  #center{
+		  	position: absolute;
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			background-color: yellow;
+			display: block;
+			top: 400px;
+			left: 700px;
+
+		  }
+
+
+
+
+	</style>
+
+</head>
+<body>
+
+	<div id="center"></div>
+
+	<script>
+
+		// All circle dots come from GPT AI
+
+		const radius = 25; // radius of the circle
+		const totalDots = 6; // total number of dots
+		const angleIncrement = 2 * Math.PI / totalDots; // angle increment between dots
+
+		for (let i = 0; i < totalDots; i++) {
+		  const dot = document.createElement('div');
+		  dot.classList.add('dot');
+		  dot.setAttribute("id", i)
+
+		  const angle = i * angleIncrement;
+
+		  const x = radius * Math.cos(angle);
+		  const y = radius * Math.sin(angle);
+
+		  dot.style.left = x + 700 + 'px';
+		  dot.style.top = y + 400 + 'px';
+
+		  document.body.appendChild(dot);
+		}
+
+		const radius2 = 50; // radius of the circle
+		const totalDots2 = 12; // total number of dots
+		const angleIncrement2 = 2 * Math.PI / totalDots2; // angle increment between dots
+
+		for (let i = 0; i < totalDots2; i++) {
+		  const dot = document.createElement('div');
+		  dot.classList.add('dot');
+		  dot.setAttribute("id", i+6)
+
+		  const angle2 = i * angleIncrement2;
+
+		  const x = radius2 * Math.cos(angle2);
+		  const y = radius2 * Math.sin(angle2);
+
+		  dot.style.left = x + 700 + 'px';
+		  dot.style.top = y + 400 + 'px';
+
+		  document.body.appendChild(dot);
+		}
+
+		const radius3 = 75; // radius of the circle
+		const totalDots3 = 18; // total number of dots
+		const angleIncrement3 = 2 * Math.PI / totalDots3; // angle increment between dots
+
+		for (let i = 0; i < totalDots3; i++) {
+		  const dot = document.createElement('div');
+		  dot.classList.add('dot');
+		  dot.setAttribute("id", i+18)
+
+		  const angle3 = i * angleIncrement3;
+
+		  const x = radius3 * Math.cos(angle3);
+		  const y = radius3 * Math.sin(angle3);
+
+		  dot.style.left = x + 700 + 'px';
+		  dot.style.top = y + 400 + 'px';
+
+		  document.body.appendChild(dot);
+		}
+
+
+		const radius4 = 100; // radius of the circle
+		const totalDots4 = 24; // total number of dots
+		const angleIncrement4 = 2 * Math.PI / totalDots4; // angle increment between dots
+
+		for (let i = 0; i < totalDots4; i++) {
+		  const dot = document.createElement('div');
+		  dot.classList.add('dot');
+		  dot.setAttribute("id", i+36)
+
+		  const angle4 = i * angleIncrement4;
+
+		  const x = radius4 * Math.cos(angle4);
+		  const y = radius4 * Math.sin(angle4);
+
+		  dot.style.left = x + 700 + 'px';
+		  dot.style.top = y + 400 + 'px';
+
+		  document.body.appendChild(dot);
+		}
+
+		const radius5 = 125; // radius of the circle
+		const totalDots5 = 30; // total number of dots
+		const angleIncrement5 = 2 * Math.PI / totalDots5; // angle increment between dots
+
+		for (let i = 0; i < totalDots5; i++) {
+		  const dot = document.createElement('div');
+		  dot.classList.add('dot');
+		  dot.setAttribute("id", i+60)
+
+		  const angle5 = i * angleIncrement5;
+
+		  const x = radius5 * Math.cos(angle5);
+		  const y = radius5 * Math.sin(angle5);
+
+		  dot.style.left = x + 700 + 'px';
+		  dot.style.top = y + 400 + 'px';
+
+		  document.body.appendChild(dot);
+		}
+
+		const radius6= 150; // radius of the circle
+		const totalDots6 = 36; // total number of dots
+		const angleIncrement6 = 2 * Math.PI / totalDots6; // angle increment between dots
+
+		for (let i = 0; i < totalDots6; i++) {
+		  const dot = document.createElement('div');
+		  dot.classList.add('dot');
+		  dot.setAttribute("id", i+90)
+
+		  const angle6 = i * angleIncrement6;
+
+		  const x = radius6 * Math.cos(angle6);
+		  const y = radius6 * Math.sin(angle6);
+
+		  dot.style.left = x + 700 + 'px';
+		  dot.style.top = y + 400 + 'px';
+
+		  document.body.appendChild(dot);
+		}
+		
+
+		const radius7 = 175; // radius of the circle
+		const totalDots7 = 42; // total number of dots
+		const angleIncrement7 = 2 * Math.PI / totalDots7; // angle increment between dots
+
+		for (let i = 0; i < totalDots7; i++) {
+		  const dot = document.createElement('div');
+		  dot.classList.add('dot');
+		  dot.setAttribute("id", i+126)
+
+		  const angle7 = i * angleIncrement7;
+
+		  const x = radius7 * Math.cos(angle7);
+		  const y = radius7 * Math.sin(angle7);
+
+		  dot.style.left = x + 700 + 'px';
+		  dot.style.top = y + 400 + 'px';
+
+		  document.body.appendChild(dot);
+		}
+
+		const radius8 = 200; // radius of the circle
+		const totalDots8 = 48; // total number of dots
+		const angleIncrement8 = 2 * Math.PI / totalDots8; // angle increment between dots
+
+		for (let i = 0; i < totalDots8; i++) {
+		  const dot = document.createElement('div');
+		  dot.classList.add('dot');
+		  dot.setAttribute("id", i+168)
+
+		  const angle8 = i * angleIncrement8;
+
+		  const x = radius8 * Math.cos(angle8);
+		  const y = radius8 * Math.sin(angle8);
+
+		  dot.style.left = x + 700 + 'px';
+		  dot.style.top = y + 400 + 'px';
+
+		  document.body.appendChild(dot);
+		}
+
+		const radius9 = 225; // radius of the circle
+		const totalDots9 = 54; // total number of dots
+		const angleIncrement9 = 2 * Math.PI / totalDots9; // angle increment between dots
+
+		for (let i = 0; i < totalDots9; i++) {
+		  const dot = document.createElement('div');
+		  dot.classList.add('dot');
+		  dot.setAttribute("id", i+216)
+
+		  const angle9 = i * angleIncrement9;
+
+		  const x = radius9 * Math.cos(angle9);
+		  const y = radius9 * Math.sin(angle9);
+
+		  dot.style.left = x + 700 + 'px';
+		  dot.style.top = y + 400 + 'px';
+
+		  document.body.appendChild(dot);
+		}
+
+		const radius10 = 250; // radius of the circle
+		const totalDots10 = 60; // total number of dots
+		const angleIncrement10 = 2 * Math.PI / totalDots10; // angle increment between dots
+
+		for (let i = 0; i < totalDots10; i++) {
+		  const dot = document.createElement('div');
+		  dot.classList.add('dot');
+		  dot.setAttribute("id", i+270)
+
+		  const angle10 = i * angleIncrement10;
+
+		  const x = radius10 * Math.cos(angle10);
+		  const y = radius10 * Math.sin(angle10);
+
+		  dot.style.left = x + 700 + 'px';
+		  dot.style.top = y + 400 + 'px';
+
+		  document.body.appendChild(dot);
+		}
+
+		const radius11 = 275; // radius of the circle
+		const totalDots11 = 66; // total number of dots
+		const angleIncrement11 = 2 * Math.PI / totalDots11; // angle increment between dots
+
+		for (let i = 0; i < totalDots11; i++) {
+		  const dot = document.createElement('div');
+		  dot.classList.add('dot');
+		  dot.setAttribute("id", i+330)
+
+		  const angle11 = i * angleIncrement11;
+
+		  const x = radius11 * Math.cos(angle11);
+		  const y = radius11 * Math.sin(angle11);
+
+		  dot.style.left = x + 700 + 'px';
+		  dot.style.top = y + 400 + 'px';
+
+		  document.body.appendChild(dot);
+		}
+		
+		var items = [];
+
+		for(var j = 0; j<=395; j++){
+			items.push(j)
+		}
+
+		
+			setInterval(function() {	
+				if (items.length > 0){
+
+					// Pick a random item
+					var randomIndex = Math.floor(Math.random() * items.length);
+					var pickedItem = items[randomIndex];
+
+					// Remove the picked item from the array
+					items.splice(randomIndex, 1);
+
+					console.log(items);  
+					var showDot = document.getElementById(pickedItem)
+
+					showDot.style.backgroundColor = "white"
+					showDot.style.display = "block"
+
+					setTimeout(function(){
+						if(showDot.style.backgroundColor === "green"){
+							showDot.style.backgroundColor = "green"
+						} else{
+							showDot.style.backgroundColor = "grey"
+							showDot.style.display = "none"
+						}
+
+					}, 500)
+
+					//trying to change color of dot when space bar is hit but not working because changing all dots
+					document.addEventListener("keydown", 
+						function(space){
+							if((space.keyCode === 32)&&(showDot.style.backgroundColor==="white")||(showDot.style.backgroundColor==="green")) {
+							showDot.style.backgroundColor = "green"
+							showDot.style.display = "none"
+						} 
+
+						})
+				} else{
+					document.body.style.backgroundColor = "white"
+					let dotEnd = document.querySelectorAll(".dot");
+					for (let i = 0; i < 396; i++){
+						dotEnd[i].style.display = "block";
+					}
+				}
+				}, 500)
+
+
+	</script>
+
+</body>
+</html>
+
